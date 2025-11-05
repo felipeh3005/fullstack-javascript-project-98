@@ -12,3 +12,6 @@
 
 ### Video demo of use brain-gcd:
 (https://github.com/felipeh3005/fullstack-javascript-project-98/blob/main/brain-gcd-demo.mp4)
+
+### Video demo of use brain-progression:
+(https://github.com/felipeh3005/fullstack-javascript-project-98/blob/main/brain-progression-demo.mp4)
