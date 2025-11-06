@@ -2,7 +2,9 @@ import runGame from '../index.js'
 
 const getRandomNumber = (min = 1, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
 
-const getGcd = (a, b) => {
+const getGcd = (x, y) => {
+let a = x;
+let b = y;
   while (b !== 0) {
     const temp = b;
     b = a % b;
