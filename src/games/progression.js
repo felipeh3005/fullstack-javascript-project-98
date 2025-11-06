@@ -1,6 +1,7 @@
-import runGame from "../index.js";
+import runGame from '../index.js';
 
-const getRandomNumber = (min = 1, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+const getRandomNumber = (min = 1, max = 100) =>
+  Math.floor(Math.random() * (max - min + 1)) + min;
 
 const generateProgression = (start, step, length = 10) => {
   const progression = [];

@@ -11,12 +11,17 @@ const runGame = (gameDescription, generateRound) => {
   for (let i = 0; i < roundsToWin; i += 1) {
     const [question, correctAnswer] = generateRound();
     console.log(`Pregunta: ${question}`);
-    const userAnswer = readlineSync.question('Tu respuesta: ').trim().toLowerCase();
+    const userAnswer = readlineSync
+      .question('Tu respuesta: ')
+      .trim()
+      .toLowerCase();
 
     if (userAnswer === correctAnswer) {
       console.log('¡Correcto!');
     } else {
-      console.log(`'${userAnswer}' es una respuesta incorrecta ;(. La respuesta correcta era '${correctAnswer}'.`);
+      console.log(
+        `'${userAnswer}' es una respuesta incorrecta ;(. La respuesta correcta era '${correctAnswer}'.`,
+      );
       console.log(`¡Intentémoslo de nuevo, ${name}!`);
       return;
     }

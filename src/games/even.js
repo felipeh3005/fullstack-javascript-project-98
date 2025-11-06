@@ -1,8 +1,9 @@
 import runGame from '../index.js';
 
-const isEven = (num) => num % 2 === 0;
+const isEven = num => num % 2 === 0;
 
-const description = 'Responde "yes" si el número es par, de lo contrario responde "no".';
+const description =
+  'Responde "yes" si el número es par, de lo contrario responde "no".';
 
 const generateRound = () => {
   const number = Math.floor(Math.random() * 100) + 1;
