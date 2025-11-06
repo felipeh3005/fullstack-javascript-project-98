@@ -7,10 +7,6 @@ env:
 extends:
   - eslint:recommended
   - airbnb-base
-  - plugin:prettier/recommended
-
-plugins:
-  - prettier
 
 parserOptions:
   ecmaVersion: latest
@@ -21,10 +17,5 @@ rules:
   import/extensions: off
   import/no-extraneous-dependencies: off
   import/no-unresolved: off
-
-  prettier/prettier:
-    - error
-    - singleQuote: true
-      semi: true
-      trailingComma: all
-      endOfLine: lf
+  implicit-arrow-linebreak: off
+  operator-linebreak: off

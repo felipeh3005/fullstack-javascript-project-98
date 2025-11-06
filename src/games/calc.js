@@ -3,8 +3,7 @@ import runGame from '../index.js';
 const operators = ['+', '-', '*'];
 
 const getRandomNumber = () => Math.floor(Math.random() * 50) + 1;
-const getRandomOperator = () =>
-  operators[Math.floor(Math.random() * operators.length)];
+const getRandomOperator = () => operators[Math.floor(Math.random() * operators.length)];
 
 const calculate = (a, b, operator) => {
   switch (operator) {
