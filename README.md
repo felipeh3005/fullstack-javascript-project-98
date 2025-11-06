@@ -15,3 +15,6 @@
 
 ### Video demo of use brain-progression:
 (https://github.com/felipeh3005/fullstack-javascript-project-98/blob/main/brain-progression-demo.mp4)
+
+### Video demo of use brain-prime:
+(https://github.com/felipeh3005/fullstack-javascript-project-98/blob/main/brain-prime-demo.mp4)
