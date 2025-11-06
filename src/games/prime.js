@@ -10,8 +10,7 @@ const isPrime = (num) => {
   return true;
 };
 
-const description =
-  'Responde "yes" si el número dado es primo. De lo contrario, responde "no".';
+const description = 'Responde "yes" si el número dado es primo. De lo contrario, responde "no".';
 
 const generateRound = () => {
   const number = getRandomNumber();
